@@ -1,0 +1,161 @@
+html, body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+    background-color: #0f3923;
+}
+
+li {
+    color: antiquewhite;
+    font-size: 3vh;
+    list-style-type: none;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.dashboard {
+    font-size: 5vh;
+}
+
+.filterWhite {
+    filter: invert(86%) sepia(29%) saturate(147%) hue-rotate(349deg) brightness(103%) contrast(96%);
+}
+
+.logo {
+    padding-right: 20px;
+    height: 5vh;
+}
+
+.navList {
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+}
+
+.listIcon {
+    padding-right: 20px;
+    height: 3vh;
+}
+
+.mainWindow {
+    display: grid;
+    grid-template-rows: 50px 1fr 12fr;
+}
+
+.searchBar {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding-left: 3vw;
+    padding-right: 5vw;
+    gap: 1vw;
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.userInfo {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+
+.userPhoto {
+    height: 6vh;
+    width: auto;
+}
+
+.notificationIcon {
+    height: 4vh;
+}
+
+.infoBar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.greeting {
+    display: flex;
+    align-items: center;
+    padding-left: 3vw;
+    gap: 10px;
+}
+
+.userPhotoLarge {
+    height: 10vh;
+    width: auto;
+}
+
+.actionButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #0f3923;
+    color: antiquewhite;
+    height: 5vh;
+    width: 8vw;
+    border-radius: 10px;
+    font-size: 2.5vh;
+}
+
+.feedWindow {
+    display: grid;
+    background-color: #e3e8f0;
+    grid-template-columns: 3fr 1fr;
+}
+
+.projectBox {
+    display: grid;
+    grid-template-rows: 30px 1fr;
+    gap: 1px;
+}
+
+h1 {
+    display: flex;
+    align-items: start;
+    font-size: 25px;
+}
+
+.cardBox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(100px, 300px));
+    gap: 20px;
+    padding: 15px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 0.2fr 0.8fr 30px;
+    gap: 1px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+}
+
+.announcementsAndTrendingBox {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
