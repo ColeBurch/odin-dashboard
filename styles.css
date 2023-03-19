@@ -156,6 +156,31 @@ h1 {
 
 .announcementsAndTrendingBox {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 40px 250px 40px 250px;
     gap: 10px;
+}
+
+.announcements {
+    display: grid;
+    grid-template-rows: repeat(3, 70px);
+    background-color: white;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+.announcementText {
+    font-size: 12px;
+}
+
+.trending {
+    display: grid;
+    background-color: white;
+    grid-template-rows: repeat(4, 60px);
+}
+
+.userBlock {
+    display: flex;
+    gap: 15px;
 }
